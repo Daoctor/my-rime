@@ -39,3 +39,6 @@ patch:
 
     # 屏蔽简繁切换 (Ctrl + Shift + 4)
     - { when: always, accept: Control+Shift+4, command: noop }
+  "speller/algebra/+":
+    # 1. 容错：允许用 lue 代替 lve (例如：策略 celue -> celve)
+    - derive/^([nl])ve$/$1ue/
