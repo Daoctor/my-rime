@@ -1,0 +1,15 @@
+patch:
+  # 1. 选中皮肤
+  style/color_scheme: mint_light_blue
+
+  # 2. 窗口边缘留白
+  style/border_height: 0
+
+  # 3. 蓝色条内部文字上下的留白
+  style/item_padding: 0
+
+  # 4. 减小圆角
+  style/corner_radius: 5
+
+  # 5. 调行间距
+  style/line_spacing: 3

@@ -1,0 +1,23 @@
+# --- 系统垃圾文件 ---
+.DS_Store
+
+# --- Rime 自动生成的文件 ---
+# 1. 用户状态
+user.yaml
+
+# 2. 设备 ID
+installation.yaml
+
+# 3. 编译缓存
+build/
+
+# 4. 用户打字习惯数据库
+*.userdb/
+
+# 5. 日志与备份
+*.log
+*.old
+*.bck
+
+# 6. 同步产生的文件夹 (如果你用了 Rime 同步)
+sync/
